@@ -72,7 +72,38 @@ nav a:hover {
 
 /*Who We Are*/
 
-
+#whoweare {
+   background-color: rgba(211, 211, 211, 0.192); 
+   color: grey;
+   width: 100%;
+   padding: 15px 60px 0px 20px;
+   margin-right: 100px;
+   margin-left: -40px;
+}
+.titleSection {
+   color: black;
+}
+.lore {
+   color: black;
+}
+.subtitleSection {
+   text-align: center;
+}
+.pictexto {
+   float: left;
+   margin-right: 5px;
+}
+.picpublicidad {
+   margin: 20px 15px 20px 45px
+}
+.columnas {
+   text-align: justify;
+   color: gray;
+   column-count: 2;
+   column-gap: 40px;
+   column-rule: 1px solid rgba(119, 136, 153, 0.274);
+   margin: 20px;
+}
 
 /*Services Section*/
 
