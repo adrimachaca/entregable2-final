@@ -24,6 +24,7 @@ h3 {
    font-size: 2em;
    text-align: center;
    padding: 0px 0 30px 0;
+   color: #ffffff;
 }
 
 .subtitleSection {
@@ -76,9 +77,9 @@ nav a:hover {
    background-color: rgba(211, 211, 211, 0.192); 
    color: grey;
    width: 100%;
-   padding: 15px 60px 0px 20px;
-   margin-right: 100px;
-   margin-left: -40px;
+   padding: 30px 0 0;
+   /* margin-right: 100px;
+   margin-left: -40px; */
 }
 .titleSection {
    color: black;
@@ -103,6 +104,7 @@ nav a:hover {
    column-gap: 40px;
    column-rule: 1px solid rgba(119, 136, 153, 0.274);
    margin: 20px;
+   padding: 0 40px;
 }
 
 /*Services Section*/
@@ -130,6 +132,11 @@ nav a:hover {
    padding: 16px;
    border-radius: 70%;
 }
+#services i:hover {
+   background-color: rgb(99, 69, 138);
+   color: #ffffff;
+   transition: 0.5s;
+}
 
 .cardServices p {
    line-height: 2em;
@@ -147,10 +154,10 @@ nav a:hover {
    el article*/
   background-size: cover;
   background-color: rgba(144, 144, 144, 0.118);
-  font-size: 1.7em;
   color: rgb(79, 79, 79);
   padding: 30px 60px 45px;
   margin: auto;
+  text-align: center;
 }
 .imgrote { /*imgrote etiqueta de fotos que giran a 90°*/
    width: 250px;
@@ -183,15 +190,13 @@ nav a:hover {
 #location {
    text-align: center;  
    width: 100%;
-   padding: 10px;    
+   padding: 40px 0 30px;    
    margin: 10px;
 }
 
 #location h2 {    
    font-family: "Open Sans", sans-serif;
    width: 100%;
-   padding: 10px;    
-   margin: 10px;
 }
 
 #location h4 {
@@ -202,10 +207,9 @@ nav a:hover {
 }
 
 #maps{
-   
    column-count: 2;
    padding: 10px;    
-   margin: 10px;
+   margin: 10px 180px 0px;
 }
 
 #maps iframe{
@@ -218,7 +222,7 @@ nav a:hover {
 #location address{
    text-align: left;
    width: 100%;
-   padding: 10px;    
+   padding: 20px 0;    
    margin: 10px;    
 }
 
@@ -234,6 +238,10 @@ nav a:hover {
    padding: 40px 0px 100px 0px;
    color: #ffffff;
    text-align: center;
+}
+
+#contact .titleSection {
+   color: #ffffff;
 }
 
 #contact form {
@@ -265,7 +273,8 @@ nav a:hover {
 
 input[type="submit"] {
    padding: 0 35px;
-   margin-top: 15px;
+   margin-top: 10px;
+   font-size: x-small;
 }
 
 /*Footer*/
