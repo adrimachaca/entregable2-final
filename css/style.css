@@ -1,4 +1,8 @@
+/* Importación de GoogleFonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Estilos generales */
 
 * {
    margin: 0;
@@ -33,6 +37,8 @@ h3 {
    width: 50%;
    margin: 0 auto 40px auto;
 }
+
+/*Header y Nav*/
 
 header h1 {
    min-height: 150px;
