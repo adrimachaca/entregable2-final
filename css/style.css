@@ -167,11 +167,11 @@ nav a:hover {
   margin: auto;
   text-align: center;
 }
-.imgrote { /*imgrote etiqueta de fotos que giran a 90°*/
+.imgrote { /*imgrote etiqueta de fotos que giran a 10°*/
    width: 250px;
    height: 150px;
 }
-.rotacion360 {
+.rotacion360 { /*rotacion360 estiqueta de imagen que gira 360°*/
    width: 250px;
    height: 150px;
 }
